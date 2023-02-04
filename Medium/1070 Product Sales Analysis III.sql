@@ -8,7 +8,7 @@ https://www.jiakaobo.com/leetcode/1070.%20Product%20Sales%20Analysis%20III.html
 
 
 --create table DDL
-CREATE TABLE public.sales_1068 (
+CREATE TABLE dbo.sales_1068 (
     sale_id integer,
     product_id integer,
     year integer,
@@ -19,9 +19,9 @@ CREATE TABLE public.sales_1068 (
 
 --Insert Script
 
-INSERT INTO public.sales_1068 (sale_id, product_id, year, quantity, price) VALUES (1, 100, 2008, 10, 5000);
-INSERT INTO public.sales_1068 (sale_id, product_id, year, quantity, price) VALUES (2, 100, 2009, 12, 5000);
-INSERT INTO public.sales_1068 (sale_id, product_id, year, quantity, price) VALUES (7, 200, 2011, 15, 9000);
+INSERT INTO dbo.sales_1068 (sale_id, product_id, year, quantity, price) VALUES (1, 100, 2008, 10, 5000);
+INSERT INTO dbo.sales_1068 (sale_id, product_id, year, quantity, price) VALUES (2, 100, 2009, 12, 5000);
+INSERT INTO dbo.sales_1068 (sale_id, product_id, year, quantity, price) VALUES (7, 200, 2011, 15, 9000);
 
 
 
